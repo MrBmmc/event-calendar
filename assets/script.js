@@ -82,7 +82,6 @@ $(document).ready(function(){
   initPage()
   background()
 
-  // Buttons (save to Local Storage)
   $(".saveBtn").on("click", function(){
     userInput = $(this).siblings(".form-control").val().trim();
     console.log(userInput);
